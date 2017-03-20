@@ -132,6 +132,7 @@ void intro(){
 }
 
 int main(){
+    Sleep(jeda);
     intro();
     initTek();
     initFil();
