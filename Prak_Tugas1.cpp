@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
-float jeda = 420;
+int jeda = 420;
 
 class Book{
     int Indeks;
