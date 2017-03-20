@@ -1,5 +1,7 @@
 #include <iostream>
+#include <
 using namespace std;
+int jeda = 350;
 
 class Book{
   //atribut buku NaTaJuKoPen
@@ -22,7 +24,14 @@ public:
   }
   
   void showAtr(){
-  
+    cout << "\n  Index buku ke-" << index+1 << endl; Sleep(jeda/8);
+    cout << "\tPenulis  : " << this->Penulis << endl; Sleep(jeda/7);
+    cout << "\tTahun    : " << this->Tahun << endl; Sleep(jeda/6);
+    cout << "\tJudul    : " << this->Judul << endl; Sleep(jeda/5);
+    cout << "\tKota     : " << this->Kota << endl; Sleep(jeda/4);
+    cout << "\tPenerbit : " << this->Penerbit << endl; Sleep(jeda/3);
+    cout << "\tHalaman  : " << this->Halaman << endl; Sleep(jeda/2);
+    Sleep(jeda);
   }
 };
 
