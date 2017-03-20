@@ -40,9 +40,9 @@ void initTek(){ //kategori Teknologi
     Book Tek[5];
     Tek[0].setAtr(1, "Dr. Deni Darmawan, S.Pd., M.Si", 2011, "Teknologi Pembelajaran", "Jakarta", "Remaja Rosdakarya", 112);
     Tek[1].setAtr(2, "Murhada. S.Kom., M.M.", 2011, "Pengantar Teknologi Informasi", "Jakarta", "Mida Karya", 262);
-    Tek[2].setAtr(3, "Herry Purnomo", 2014, "Pengenalan Informatika Teknik", "Makassar", "Andi", 212);
-    Tek[3].setAtr(4, "Agung Sudjatmiko", 2012, "Teknologi sebagai Tradisi", "Medan", "Deepublish", 92);
-    Tek[4].setAtr(5, "Farhanitrate", 2008, "Organisasi dan Arsitektur Komputer", "Surabaya", "Sinamita", 319);
+    Tek[2].setAtr(3, "Herry Purnomo, S.Kom, M.T.", 2014, "Pengenalan Informatika Teknik", "Makassar", "Andi", 212);
+    Tek[3].setAtr(4, "Farhanitrate, S.T., M.T.", 2012, "Teknologi sebagai Tradisi", "Medan", "Deepublish", 92);
+    Tek[4].setAtr(5, "Prerajulization, S.T., M.T.", 2008, "Organisasi dan Arsitektur Komputer", "Surabaya", "Sinamita", 319);
     cout << "Kategori Teknologi :";
     for (int i=0 ; i<5 ; i++){
         Tek[i].showAtr();
@@ -52,10 +52,10 @@ void initTek(){ //kategori Teknologi
 void initFil(){ //kategori Filsafat
     Book Fil[5];
     Fil[0].setAtr(1, "Dr. Stephen Palmquis", 2014, "Pohon Filsafat", "Kediri", "Wedatama Widya Sastra", 120);
-    Fil[1].setAtr(2, "Agung Suganjar", 2003, "Filsafat Hukum", "Medan", "Digitama Karya", 140);
-    Fil[2].setAtr(3, "Reza Ahmadi", 2010, "Filsafat Politik untuk Indonesia", "Jakarta", "Gading Sastra", 143);
-    Fil[3].setAtr(4, "Zainal Abidin", 2005, "Filsafat Manusia", "Semarang", "Katawama", 201);
-    Fil[4].setAtr(5, "Kemal Zainudin", 2011, "Filsafat Pra-skolastik", "Malang", "Gatingka", 94);
+    Fil[1].setAtr(2, "Prof. Dr. Agung Suganjar", 2003, "Filsafat Hukum", "Medan", "Digitama Karya", 140);
+    Fil[2].setAtr(3, "Dr. Reza Ahmadi", 2010, "Filsafat Politik untuk Indonesia", "Jakarta", "Gading Sastra", 143);
+    Fil[3].setAtr(4, "Prof Dr. Zainal Abidin", 2005, "Filsafat Manusia", "Semarang", "Katawama", 201);
+    Fil[4].setAtr(5, "Dr. Kemal Zainudin", 2011, "Filsafat Pra-skolastik", "Malang", "Gatingka", 94);
     cout << "\nKategori Filsafat :";
     for (int i=0 ; i<5 ; i++){
         Fil[i].showAtr();
@@ -64,11 +64,11 @@ void initFil(){ //kategori Filsafat
 
 void initSej(){ //kategori Sejarah
     Book Sej[5];
-    Sej[0].setAtr(1, "Andi Susilo", 2003, "Sejarah Para Khalifah", "Jakarta", "Gading Sastra", 90);
-    Sej[1].setAtr(2, "Sugeng Saestu", 2004, "Sejarah Banten", "Jakarta", "Gatingka", 125);
-    Sej[2].setAtr(3, "Sasongko Purbo", 2009, "Sejarah Peradaban Dunia Kuno", "Malang", "Satria Karya", 237);
+    Sej[0].setAtr(1, "Prof. Dr. Sasongko Purbo, M.A.", 2003, "Sejarah Para Khalifah", "Jakarta", "Gading Sastra", 90);
+    Sej[1].setAtr(2, "Sugeng Saestu ", 2004, "Sejarah Banten", "Jakarta", "Gatingka", 125);
+    Sej[2].setAtr(3, "Andi Susilo S.Pd., M.Si", 2009, "Sejarah Peradaban Dunia Kuno", "Malang", "Satria Karya", 237);
     Sej[3].setAtr(4, "Ginanjar Sukirman", 2006, "Sejarah Wayang Purwa", "Malang", "Mida Sastra", 183);
-    Sej[4].setAtr(5, "Tatang Sutarman", 2001, "Sejarah Melayu", "Jakarta", "Digitama Karya", 277);
+    Sej[4].setAtr(5, "Dr. Tatang Sutarman", 2001, "Sejarah Melayu", "Jakarta", "Digitama Karya", 277);
     cout << "\nKategori Sejarah :";
     for (int i=0 ; i<5 ; i++){
         Sej[i].showAtr();
@@ -103,10 +103,10 @@ void initPsi(){ //kategori Psikologi
 
 void initPol(){ //kategori Politik
     Book Pol[5];
-    Pol[0].setAtr(1, "Niko Prahendra", 2003, "Ilmu Politik", "Jonggol", "Megakarya", 210);
+    Pol[0].setAtr(1, "Dr. Niko Prahendra, M.Si", 2003, "Ilmu Politik", "Jonggol", "Megakarya", 210);
     Pol[1].setAtr(2, "Jeremy Susan", 2009, "Komunikasi Politik", "Cibinong", "Gading Sastra", 123);
-    Pol[2].setAtr(3, "Yon Abadi", 2005, "Politik Ideologi Pendidikan", "Jakarta", "Sinamita", 351);
-    Pol[3].setAtr(4, "Ahmad Fuadi", 2014, "Teori Politik Modern", "Surabaya", "Pionir Massa", 209);
+    Pol[2].setAtr(3, "Dr. Yon Abadi", 2005, "Politik Ideologi Pendidikan", "Jakarta", "Sinamita", 351);
+    Pol[3].setAtr(4, "Prof. Ahmad Fuadi", 2014, "Teori Politik Modern", "Surabaya", "Pionir Massa", 209);
     Pol[4].setAtr(5, "Jessica Veranda", 2013, "Dasar-dasar Ilmu Politik", "Malang", "Digitama Karya", 91);
     cout << "\nKategori Politik :";
     for (int i=0 ; i<5 ; i++){
