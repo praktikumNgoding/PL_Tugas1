@@ -80,7 +80,7 @@ void initAga(){ //kategori Agama
     Aga[0].setAtr(1, "Aa Gym", 2007, "Tanda-tanda ikhlas seorang Hamba", "Jakarta", "MQS Pustaka Grafika", 41);
     Aga[1].setAtr(2, "Tasirun Sulaiman", 2010, "13 Misteri di Kota Mekkah", "Jakarta", "Shanju Sastra", 91);
     Aga[2].setAtr(3, "Drs. Nur Hadi", 2014, "Dahsyatnya Ikhlas", "Tangerang", "Dian Rakyat", 142);
-    Aga[3].setAtr(4, "Drs. Nuhlil Ahmad", 2012, "Buku Pintar Agama Islam", "Medan", "", 72);
+    Aga[3].setAtr(4, "Drs. Nuhlil Ahmad", 2012, "Buku Pintar Agama Islam", "Medan", "Zepta Sastra", 72);
     Aga[4].setAtr(5, "Dr. Haji Umi Saifulloh", 2006, "Agama dan Sains", "Cibubur", "Lyto", 80);
     cout << "\nKategori Agama :";
     for (int i=0 ; i<5 ; i++){
@@ -90,11 +90,11 @@ void initAga(){ //kategori Agama
 
 void initPsi(){ //kategori Psikologi
     Book Psi[5];
-    Psi[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Psi[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Psi[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Psi[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Psi[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Psi[0].setAtr(1, "Prof. Dr. Sofyan T. R.", 2007, "Psikologi Kepribadian", "Cilembu", "Dian Pustaka", 84);
+    Psi[1].setAtr(2, "Norman D Sundberg", 2014, "Psikologi Pendidikan", "Jakarta", "DDL Junction", 96);
+    Psi[2].setAtr(3, "Dr. Kaelany", 2010, "Psikologi Sosial", "Sigura-gura", "Zepetto", 120);
+    Psi[3].setAtr(4, "Dr. Fattah Hanurawan", 2003, "Psikologi Komunikasi", "Sigamalama", "Satria Karya", 72);
+    Psi[4].setAtr(5, "Dr. Istiqomah Wibowo", 2008, "Analisis Tulisan Tangan", "Malang", "Sukino Karya", 51);
     cout << "\nKategori Psikologi :";
     for (int i=0 ; i<5 ; i++){
         Psi[i].showAtr();
@@ -103,11 +103,11 @@ void initPsi(){ //kategori Psikologi
 
 void initPol(){ //kategori Politik
     Book Pol[5];
-    Pol[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Pol[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Pol[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Pol[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Pol[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Pol[0].setAtr(1, "Niko Prahendra", 2003, "Ilmu Politik", "Jonggol", "Megakarya", 210);
+    Pol[1].setAtr(2, "Jeremy Susan", 2009, "Komunikasi Politik", "Cibinong", "Gading Sastra", 123);
+    Pol[2].setAtr(3, "Yon Abadi", 2005, "Politik Ideologi Pendidikan", "Jakarta", "Sinamita", 351);
+    Pol[3].setAtr(4, "Ahmad Fuadi", 2014, "Teori Politik Modern", "Surabaya", "Pionir Massa", 209);
+    Pol[4].setAtr(5, "Jessica Veranda", 2013, "Dasar-dasar Ilmu Politik", "Malang", "Digitama Karya", 91);
     cout << "\nKategori Politik :";
     for (int i=0 ; i<5 ; i++){
         Pol[i].showAtr();
@@ -116,11 +116,11 @@ void initPol(){ //kategori Politik
 
 void initFik(){ //kategori Fiksi
     Book Fik[5];
-    Fik[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Fik[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Fik[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Fik[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Fik[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Fik[0].setAtr(1, "Rangga Almahendra", 2013, "Warna Langit", "Gresik", "Mahagita", 102);
+    Fik[1].setAtr(2, "Heri Sutarman", 2016, "Aku Menolak Hukuman Mati", "Solo", "Voldemort", 332);
+    Fik[2].setAtr(3, "Andela Yuwono", 2012, "Dalam Mihrab Cinta", "Surabaya", "Gagasmedia", 212);
+    Fik[3].setAtr(4, "Adhisty Zara", 2017, "The Diviners", "Malang", "Nusantara Abadi", 97);
+    Fik[4].setAtr(5, "Phillip Pulman", 2015, "Evermore", "Jakarta", "Mitra Pemuda", 159);
     cout << "\nKategori Fiksi :";
     for (int i=0 ; i<5 ; i++){
         Fik[i].showAtr();
