@@ -1,5 +1,5 @@
 # PL_Tugas1
----------------------------------------------------------------------
+-----------------------------------------------------------------------
 Program Listing koleksi buku perpustakaan yang memuat 7 kategori:
 - Teknologi
 - Filsafat
@@ -33,7 +33,7 @@ Method :
 - initPol() -> instansiasi objek Pol pada class Book (kategori Politik)
 - initFik() -> instansiasi objek Fik pada class Book (kategori Fiksi)
 
----------------------------------------------------------------------
+-----------------------------------------------------------------------
 
 Kelas : A - Teknik Komputer
 
