@@ -37,22 +37,22 @@ Method :
 
 Kelas : A - Teknik Komputer
 
-- 1.    Username  : FRONT13R
+- 1.)   Username  : FRONT13R
 -       Nama      : Zhuliand Rachman
 -       NIM       : 165150301111038
     
-- 2.    Username  : 
+- 2.)   Username  : 
 -       Nama      : 
 -       NIM       : 
     
-- 3.    Username  : 
+- 3.)   Username  : 
 -       Nama      : 
 -       NIM       : 
     
-- 4.    Username  : 
+- 4.)   Username  : 
 -       Nama      : 
 -       NIM       : 
     
-- 5.    Username  : 
+- 5.)   Username  : 
 -       Nama      : 
 -       NIM       : 
