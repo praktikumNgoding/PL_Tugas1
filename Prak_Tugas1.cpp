@@ -113,7 +113,16 @@ void initPol(){ //kategori Politik
 }
   
 void initFik(){ //kategori Fiksi
-    
+    Book Fik[5];
+    Fik[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Fik[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Fik[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Fik[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Fik[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    cout << "\nKategori Fiksi :";
+    for (int i=0 ; i<5 ; i++){
+        Fik[i].showAtr(i);
+    }
 }
   
 int main(){
