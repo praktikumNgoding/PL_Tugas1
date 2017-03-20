@@ -1,5 +1,5 @@
 #include <iostream>
-#include <
+#include <windows.h>
 using namespace std;
 int jeda = 350;
 
