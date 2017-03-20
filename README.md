@@ -13,13 +13,13 @@ dengan menggunakan konsep OOP dari bahasa C++
 Class : Book
 
 Atribut Buku :
-- Indeks
-- Penerbit
-- Tahun
-- Judul Buku
-- Kota
-- Penerbit
-- Halaman
+- Indeks (int)
+- Penerbit (string)
+- Tahun (int)
+- Judul (string)
+- Kota (string)
+- Penerbit (string)
+- Halaman (int)
 
 Method :
 - setAtr()  -> digunakan untuk mengisi atribut buku
