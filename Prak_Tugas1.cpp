@@ -64,11 +64,11 @@ void initFil(){ //kategori Filsafat
 
 void initSej(){ //kategori Sejarah
     Book Sej[5];
-    Sej[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Sej[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Sej[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Sej[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Sej[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Sej[0].setAtr(1, "Andi Susilo", 2003, "Sejarah Para Khalifah", "Jakarta", "Gading Sastra", 90);
+    Sej[1].setAtr(2, "Sugeng Saestu", 2004, "Sejarah Banten", "Jakarta", "Gatingka", 125);
+    Sej[2].setAtr(3, "Sasongko Purbo", 2009, "Sejarah Peradaban Dunia Kuno", "Malang", "Satria Karya", 237);
+    Sej[3].setAtr(4, "Ginanjar Sukirman", 2006, "Sejarah Wayang Purwa", "Malang", "Mida Sastra", 183);
+    Sej[4].setAtr(5, "Tatang Sutarman", 2001, "Sejarah Melayu", "Jakarta", "Digitama Karya", 277);
     cout << "\nKategori Sejarah :";
     for (int i=0 ; i<5 ; i++){
         Sej[i].showAtr();
@@ -77,11 +77,11 @@ void initSej(){ //kategori Sejarah
 
 void initAga(){ //kategori Agama
     Book Aga[5];
-    Aga[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Aga[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Aga[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Aga[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Aga[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Aga[0].setAtr(1, "Aa Gym", 2007, "Tanda-tanda ikhlas seorang Hamba", "Jakarta", "MQS Pustaka Grafika", 41);
+    Aga[1].setAtr(2, "Tasirun Sulaiman", 2010, "13 Misteri di Kota Mekkah", "Jakarta", "Shanju Sastra", 91);
+    Aga[2].setAtr(3, "Drs. Nur Hadi", 2014, "Dahsyatnya Ikhlas", "Tangerang", "Dian Rakyat", 142);
+    Aga[3].setAtr(4, "Drs. Nuhlil Ahmad", 2012, "Buku Pintar Agama Islam", "Medan", "", 72);
+    Aga[4].setAtr(5, "Dr. Haji Umi Saifulloh", 2006, "Agama dan Sains", "Cibubur", "Lyto", 80);
     cout << "\nKategori Agama :";
     for (int i=0 ; i<5 ; i++){
         Aga[i].showAtr();
