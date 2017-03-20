@@ -47,6 +47,7 @@ void initTek(){ //kategori Teknologi
     for (int i=0 ; i<5 ; i++){
         Tek[i].showAtr();
     }
+}
 
 void initFil(){ //kategori Filsafat
     Book Fil[5];
@@ -126,9 +127,9 @@ void initFik(){ //kategori Fiksi
     }
 }
 
-    void intro(){
-        cout << "Daftar Koleksi Buku Perpustakaan X\n" << endl;
-    }
+void intro(){
+    cout << "Daftar Koleksi Buku Perpustakaan X\n" << endl;
+}
     
 int main(){
     intro();
