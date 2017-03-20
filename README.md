@@ -13,6 +13,7 @@ dengan menggunakan konsep OOP dari bahasa C++
 Class : Book
 
 Atribut Buku :
+- Indeks
 - Penerbit
 - Tahun
 - Judul Buku
