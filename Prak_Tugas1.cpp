@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
-int jeda = 420;
+float jeda = 420;
 
 class Book{
     int Indeks;
@@ -25,14 +25,14 @@ public:
     }
 
     void showAtr(){
-        cout << "\n  Indeks buku ke-" << Indeks << endl; Sleep(jeda/8);
-        cout << "\tPenulis  : " << this->Penulis << endl; Sleep(jeda/7);
-        cout << "\tTahun    : " << this->Tahun << endl; Sleep(jeda/6);
-        cout << "\tJudul    : " << this->Judul << endl; Sleep(jeda/5);
-        cout << "\tKota     : " << this->Kota << endl; Sleep(jeda/4);
-        cout << "\tPenerbit : " << this->Penerbit << endl; Sleep(jeda/3);
-        cout << "\tHalaman  : " << this->Halaman << endl; Sleep(jeda/2);
-        Sleep(jeda);
+        cout << "\n  Indeks buku ke-" << Indeks << endl; Sleep(jeda/10);
+        cout << "\tPenulis  : " << this->Penulis << endl; Sleep(jeda/9);
+        cout << "\tTahun    : " << this->Tahun << endl; Sleep(jeda/8);
+        cout << "\tJudul    : " << this->Judul << endl; Sleep(jeda/7);
+        cout << "\tKota     : " << this->Kota << endl; Sleep(jeda/6);
+        cout << "\tPenerbit : " << this->Penerbit << endl; Sleep(jeda/5);
+        cout << "\tHalaman  : " << this->Halaman << endl; Sleep(jeda/4);
+        Sleep(jeda*2);
     }
 };
 
