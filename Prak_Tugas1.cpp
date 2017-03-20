@@ -61,11 +61,29 @@ void initFil(){ //kategori Filsafat
 }
   
 void initSej(){ //kategori Sejarah
-    
+    Book Sej[5];
+    Sej[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Sej[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Sej[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Sej[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Sej[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    cout << "\nKategori Sejarah :";
+    for (int i=0 ; i<5 ; i++){
+        Sej[i].showAtr(i);
+    }
 }
   
 void initAga(){ //kategori Agama
-    
+    Book Aga[5];
+    Aga[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Aga[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Aga[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Aga[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Aga[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    cout << "\nKategori Agama :";
+    for (int i=0 ; i<5 ; i++){
+        Aga[i].showAtr(i);
+    }
 }
   
 void initPsi(){ //kategori Psikologi
