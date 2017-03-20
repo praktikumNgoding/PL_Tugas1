@@ -34,7 +34,8 @@ Method :
 - initFik() -> instansiasi objek Fik pada class Book (kategori Fiksi)
 
 -----------------------------------------------------------------------
-
+Praktikum : Pemrograman Lanjut
+Asisten Praktikum : Moch. Wahyu Imam Santosa
 Kelas : A - Teknik Komputer
 
 - 1.)   Username  : FRONT13R
