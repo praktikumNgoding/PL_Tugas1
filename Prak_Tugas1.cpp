@@ -73,5 +73,13 @@ void initFik(){ //kategori Fiksi
   
 int main(){
  
+  initTek();
+  initFil();
+  initSej();
+  initAga();
+  initPsi();
+  initPol();
+  initFik();
+  
   return 0;
 }
