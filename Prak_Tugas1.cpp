@@ -1,10 +1,10 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
-int jeda = 350;
+int jeda = 420;
 
 class Book{
-    //atribut buku NaTaJuKoPen
+    int Indeks;
     string Penulis;
     int Tahun;
     string Judul;
@@ -14,7 +14,8 @@ class Book{
 
 public:
     //method
-    void setAtr(string na, int ta, string ju, string ko, string pen, int hal){
+    void setAtr(int in, string na, int ta, string ju, string ko, string pen, int hal){
+        this->Indeks = in;
         this->Penulis = na;
         this->Tahun = ta;
         this->Judul = ju;
@@ -23,8 +24,8 @@ public:
         this->Halaman = hal;
     }
   
-    void showAtr(int index){
-        cout << "\n  Index buku ke-" << index+1 << endl; Sleep(jeda/8);
+    void showAtr(){
+        cout << "\n  Indeks buku ke-" << Indeks << endl; Sleep(jeda/8);
         cout << "\tPenulis  : " << this->Penulis << endl; Sleep(jeda/7);
         cout << "\tTahun    : " << this->Tahun << endl; Sleep(jeda/6);
         cout << "\tJudul    : " << this->Judul << endl; Sleep(jeda/5);
@@ -37,96 +38,100 @@ public:
 
 void initTek(){ //kategori Teknologi
     Book Tek[5];
-    Tek[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Tek[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Tek[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Tek[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Tek[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Tek[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Tek[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Tek[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Tek[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Tek[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "Kategori Teknologi :";
     for (int i=0 ; i<5 ; i++){
-    Tek[i].showAtr(i);
-        }
+        Tek[i].showAtr();
+    }
 
 void initFil(){ //kategori Filsafat
     Book Fil[5];
-    Fil[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Fil[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Fil[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Fil[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Fil[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Fil[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Fil[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Fil[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Fil[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Fil[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "\nKategori Filsafat :";
     for (int i=0 ; i<5 ; i++){
-        Fil[i].showAtr(i);
+        Fil[i].showAtr();
     }
 }
   
 void initSej(){ //kategori Sejarah
     Book Sej[5];
-    Sej[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Sej[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Sej[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Sej[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Sej[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Sej[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Sej[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Sej[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Sej[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Sej[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "\nKategori Sejarah :";
     for (int i=0 ; i<5 ; i++){
-        Sej[i].showAtr(i);
+        Sej[i].showAtr();
     }
 }
   
 void initAga(){ //kategori Agama
     Book Aga[5];
-    Aga[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Aga[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Aga[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Aga[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Aga[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Aga[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Aga[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Aga[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Aga[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Aga[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "\nKategori Agama :";
     for (int i=0 ; i<5 ; i++){
-        Aga[i].showAtr(i);
+        Aga[i].showAtr();
     }
 }
   
 void initPsi(){ //kategori Psikologi
     Book Psi[5];
-    Psi[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Psi[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Psi[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Psi[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Psi[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Psi[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Psi[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Psi[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Psi[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Psi[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "\nKategori Psikologi :";
     for (int i=0 ; i<5 ; i++){
-        Psi[i].showAtr(i);
+        Psi[i].showAtr();
     }
 }
   
 void initPol(){ //kategori Politik
     Book Pol[5];
-    Pol[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Pol[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Pol[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Pol[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Pol[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Pol[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Pol[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Pol[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Pol[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Pol[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "\nKategori Politik :";
     for (int i=0 ; i<5 ; i++){
-        Pol[i].showAtr(i);
+        Pol[i].showAtr();
     }
 }
   
 void initFik(){ //kategori Fiksi
     Book Fik[5];
-    Fik[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
-    Fik[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
-    Fik[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
-    Fik[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
-    Fik[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    Fik[0].setAtr(1, "Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Fik[1].setAtr(2, "Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Fik[2].setAtr(3, "Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Fik[3].setAtr(4, "Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Fik[4].setAtr(5, "Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
     cout << "\nKategori Fiksi :";
     for (int i=0 ; i<5 ; i++){
-        Fik[i].showAtr(i);
+        Fik[i].showAtr();
     }
 }
-  
+
+    void intro(){
+        cout << "Daftar Koleksi Buku Perpustakaan X\n" << endl;
+    }
+    
 int main(){
- 
+    intro();
     initTek();
     initFil();
     initSej();
