@@ -10,7 +10,7 @@ class Book{
   string Judul;
   string Kota;
   string Penerbit;
-  int halaman;
+  int Halaman;
 
 public:
   //method
@@ -23,7 +23,7 @@ public:
     this->Halaman = hal;
   }
   
-  void showAtr(){
+  void showAtr(int index){
     cout << "\n  Index buku ke-" << index+1 << endl; Sleep(jeda/8);
     cout << "\tPenulis  : " << this->Penulis << endl; Sleep(jeda/7);
     cout << "\tTahun    : " << this->Tahun << endl; Sleep(jeda/6);
