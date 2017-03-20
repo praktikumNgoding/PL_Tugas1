@@ -12,5 +12,6 @@ dengan menggunakan konsep OOP dari bahasa C++
 
 Kelas : A - Teknik Komputer
 
+Username : FRONT13R
 Nama  : Zhuliand Rachman
 NIM   : 165150301111038
