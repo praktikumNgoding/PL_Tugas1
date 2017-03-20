@@ -35,7 +35,7 @@ public:
   }
 };
 
-void initTek(){
+void initTek(){ //kategori Teknologi
   Book Tek[5];
   Tek[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
   Tek[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
@@ -46,10 +46,31 @@ void initTek(){
   for (int i=0 ; i<5 ; i++){
     Tek[i].showAtr(i);
   }
-  
+
+void initFil(){ //kategori Filsafat
   
 }
+  
+void initSej(){ //kategori Sejarah
+  
+}
+  
+void initAga(){ //kategori Agama
+  
+}
+  
+void initPsi(){ //kategori Psikologi
 
+}
+  
+void initPol(){ //kategori Politik
+
+}
+  
+void initFik(){ //kategori Fiksi
+
+}
+  
 int main(){
  
   return 0;
