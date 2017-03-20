@@ -87,7 +87,16 @@ void initAga(){ //kategori Agama
 }
   
 void initPsi(){ //kategori Psikologi
-    
+    Book Psi[5];
+    Psi[0].setAtr("Penulis0", 2017, "Judul0", "Kota0", "Penerbit0", 0);
+    Psi[1].setAtr("Penulis1", 2017, "Judul1", "Kota1", "Penerbit1", 1);
+    Psi[2].setAtr("Penulis2", 2017, "Judul2", "Kota2", "Penerbit2", 2);
+    Psi[3].setAtr("Penulis3", 2017, "Judul3", "Kota3", "Penerbit3", 3);
+    Psi[4].setAtr("Penulis4", 2017, "Judul4", "Kota4", "Penerbit4", 4);
+    cout << "\nKategori Psikologi :";
+    for (int i=0 ; i<5 ; i++){
+        Psi[i].showAtr(i);
+    }
 }
   
 void initPol(){ //kategori Politik
