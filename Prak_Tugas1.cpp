@@ -141,6 +141,5 @@ int main(){
     initPsi();
     initPol();
     initFik();
-
     return 0;
 }
